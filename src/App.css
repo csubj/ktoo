@@ -1,9 +1,9 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
-  height: 20vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -33,7 +33,7 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(360deg); 
   }
 }
 
@@ -46,13 +46,13 @@
   display: inline-block;
   list-style: none;
   margin-bottom: -1px;
-  padding: 0.5rem 0.75rem;
+  padding: 0rem 0.05rem;
 }
 
 .tab-list-active {
   background-color: white;
   border: solid #ccc;
-  border-width: 1px 1px 0 1px;
+  /* border-width: 1px 1px 0 1px; */
 }
 
 .room-list {  
@@ -67,3 +67,29 @@
   margin-bottom: -1px;
   padding: 0.5rem 0.75rem;
 } */
+
+/* a:active {
+  background-color: yellow;
+} */
+
+.maybe {
+  resize:both;
+  overflow:auto; /* something other than visible */
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #ffd95e; /* Green */
+}
