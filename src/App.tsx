@@ -13,15 +13,15 @@ function App() {
     <div className="App">
       <div>
         <>
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1 style={{display: "inline"}}>ktoo v1</h1>
+          <img src={logo} className="App-logo" alt="logo" />
+          <h1 style={{ display: "inline" }}>ktoo v1</h1>
         </>
         <Tabs>
-          <Tab title="Monday"><Rooms rooms={clubRooms}/></Tab>
-          <Tab title="Tuesday"><Rooms rooms={clubRooms}/></Tab>
-          <Tab title="Wednesday"><Rooms rooms={clubRooms}/></Tab>
-          <Tab title="Thursday"><Rooms rooms={clubRooms}/></Tab>
-          <Tab title="Friday"><Rooms rooms={clubRooms}/></Tab>
+          <Tab title="Monday"><Rooms rooms={clubRooms} /></Tab>
+          <Tab title="Tuesday"><Rooms rooms={clubRooms} /></Tab>
+          <Tab title="Wednesday"><Rooms rooms={clubRooms} /></Tab>
+          <Tab title="Thursday"><Rooms rooms={clubRooms} /></Tab>
+          <Tab title="Friday"><Rooms rooms={clubRooms} /></Tab>
         </Tabs>
       </div>
     </div>
