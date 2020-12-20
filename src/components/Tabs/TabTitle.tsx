@@ -1,4 +1,4 @@
-import React, { useCallback } from "react"
+import React, { useCallback,CSSProperties } from "react";
 
 type Props = {
   title: string
@@ -11,6 +11,7 @@ const TabTitle: React.FC<Props> = ({ title, setSelectedTab, index }) => {
   const onClick = useCallback(() => {
     setSelectedTab(index)
   }, [setSelectedTab, index])
+
 
   return (
     <li className="tab-list-item">
