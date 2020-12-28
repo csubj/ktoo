@@ -7,7 +7,8 @@ import Rooms from "./components/Rooms/Rooms"
 
 
 function App() {
-  const clubRooms = ["frogs", "wallaby", "gecko", "just kill me"];
+  const clubRooms = ["frogs", "wallaby", "gecko"];
+  const people = ["jeff", "frank", "fred"];
 
   return (
     <div className="App">
